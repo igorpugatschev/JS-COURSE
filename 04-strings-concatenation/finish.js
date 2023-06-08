@@ -10,3 +10,9 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const myFirstName = 'Игорь'
+const myLastName = 'Пугачёв'
+const myProff = 'Senior QA'
+const concatString = 'Меня зовут ' + myFirstName + ' ' + myLastName + ' и я ' + myProff
+console.log(concatString)
